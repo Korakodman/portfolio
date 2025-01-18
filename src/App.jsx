@@ -2,16 +2,15 @@ import { useState } from "react";
 
 import "./App.css";
 import Header from "./Component/Header";
+import Main from "./Component/Main";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="">
+    <div className="App">
       <Header />
-      <main className=" border-black border-2 h-full w-full p-2 ">
-        {/* เนื้อหาหลัก */}
-      </main>
+      <Main />
       <footer className="border-2 border-red-500 p-2">Footer</footer>
     </div>
   );

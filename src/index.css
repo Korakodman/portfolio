@@ -10,5 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: serif;
-  
+}
+.logo{
+ @apply w-10 h-10 mx-4
 }
