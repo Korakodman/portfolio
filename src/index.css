@@ -14,12 +14,3 @@
 .logo{
  @apply w-10 h-10 mx-4  text-white rounded-md flex items-center justify-center;
 }
-.box-show-project{
-  @apply mx-10 my-5 p-5 bg-black rounded-md shadow-lg shadow-[#ff9f1c] text-center border-2 border-[#ff9f1c] flex-row items-center ;
-}
-.text-head-project{
-  @apply text-2xl font-bold text-white p-2 bg-black mb-4 shadow-lg border-2 border-[#2ec4b6] ;
-}
-.text-project{
-  @apply text-lg text-white p-2 mt-4 w-fit  bg-black  shadow-lg border-x-4 border-y-2  border-[#2ec4b6]   ;
-}
