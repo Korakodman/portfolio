@@ -11,21 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header
-      className="App-Header 
-      p-4 
-      border-4 
-      shadow-sm 
-      shadow-[#ff9f1c]  
-      border-[#ff9f1c] 
-      bg-[#011627]  
-      flex 
-      justify-between 
-      items-center
-      sticky 
-      top-0 
-      z-50"
-    >
+    <header className="App-Header p-4 border-2 shadow-md shadow-[#ff9f1c]  border-[#ff9f1c] bg-[#011627]  flex justify-between items-centersticky top-0 z-50">
       <div className="head-logo p-2">
         <h1 className="text-2xl text-white ml-4 md:ml-7 cursor-pointer">
           Korakod.
@@ -57,18 +43,7 @@ const Header = () => {
 
       {/* Mobile Navigation Overlay */}
       {isMenuOpen && (
-        <div
-          className="fixed 
-          inset-0 
-          bg-[#011627] 
-          z-50 
-          md:hidden 
-          flex 
-          flex-col 
-          items-center 
-          justify-center 
-          space-y-6"
-        >
+        <div className="fixed  inset-0  bg-[#011627]  z-50 md:hidden  flex  flex-col  items-center  justify-center  space-y-6">
           <button
             onClick={toggleMenu}
             className="absolute top-4 right-4 text-white"
