@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className="App-Header p-4 border-2 shadow-md shadow-[#ff9f1c]  border-[#ff9f1c] bg-[#011627]  flex justify-between items-centersticky top-0 z-50">
+    <header className="App-Header p-4 border-2 shadow-md shadow-[#ff9f1c]  border-[#ff9f1c] bg-[#011627]  flex justify-between items-centersticky top-0 z-50 sticky">
       <div className="head-logo p-2">
         <h1 className="text-2xl text-white ml-4 md:ml-7 cursor-pointer">
           Korakod.
