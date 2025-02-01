@@ -1,6 +1,6 @@
 import React from "react";
-
-function Skill() {
+import { forwardRef } from "react";
+const Skill = () => {
   return (
     <div>
       <section className="skill    p-2  bg-[#011627] h-[500px] ">
@@ -53,6 +53,6 @@ function Skill() {
       <hr className="border border-gray-600 w-full"></hr>
     </div>
   );
-}
+};
 
 export default Skill;

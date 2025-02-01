@@ -1,17 +1,29 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 
-const Header = () => {
+const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const navItems = ["Home", "About", "Skill", "Project", "Contact"];
+  const navItems = [
+    { name: "Home", ref: homeRef },
+    { name: "About", ref: aboutRef },
+    { name: "Skill", ref: skillsRef },
+    { name: "Project", ref: projectsRef },
+    { name: "Contact", ref: contactRef },
+  ];
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const scrollToSection = (ref) => {
+    if (ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <header className="App-Header p-4 border-2 shadow-md shadow-[#ff9f1c]  border-[#ff9f1c] bg-[#011627]  flex justify-between items-centersticky top-0 z-50 sticky">
+    <header className="App-Header p-4 border-2 shadow-md shadow-[#ff9f1c]  border-[#ff9f1c] bg-[#011627] flex justify-between items-center sticky top-0 z-50">
       <div className="head-logo p-2">
         <h1 className="text-2xl text-white ml-4 md:ml-7 cursor-pointer">
           Korakod.
@@ -30,12 +42,17 @@ const Header = () => {
         <ul className="flex text-xl">
           {navItems.map((item, index) => (
             <li
-              key={item}
+              key={item.name}
               className={`mr-8 warp-to ${
                 index === navItems.length - 1 ? "mr-0" : ""
               }`}
             >
-              {item}
+              <button
+                onClick={() => scrollToSection(item.ref)}
+                className="text-white cursor-pointer"
+              >
+                {item.name}
+              </button>
             </li>
           ))}
         </ul>
@@ -43,7 +60,7 @@ const Header = () => {
 
       {/* Mobile Navigation Overlay */}
       {isMenuOpen && (
-        <div className="fixed  inset-0  bg-[#011627]  z-50 md:hidden  flex  flex-col  items-center  justify-center  space-y-6">
+        <div className="fixed inset-0 bg-[#011627] z-50 md:hidden flex flex-col items-center justify-center space-y-6">
           <button
             onClick={toggleMenu}
             className="absolute top-4 right-4 text-white"
@@ -51,14 +68,16 @@ const Header = () => {
             <X size={24} />
           </button>
           {navItems.map((item) => (
-            <a
-              key={item}
-              href={`#${item.toLowerCase()}`}
-              onClick={toggleMenu}
+            <button
+              key={item.name}
+              onClick={() => {
+                scrollToSection(item.ref);
+                toggleMenu(); // ปิดเมนูหลังจากกด
+              }}
               className="text-2xl text-white warp-to"
             >
-              {item}
-            </a>
+              {item.name}
+            </button>
           ))}
         </div>
       )}
