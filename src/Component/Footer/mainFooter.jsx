@@ -23,10 +23,10 @@ const MainFooter = forwardRef((ref, contactRef) => {
         </div>
         <div className="p-2 md:p-4  border-[#e71d36] border-2 h-[100px] md:h-[111px]">
           <div className="mb-2">
-            <h1 className="text-base md:text-2xl">Gmail</h1>
+            <h1 className="text-sm md:text-2xl">Gmail</h1>
           </div>
           <div>
-            <h1 className="text-[9.5px] md:text-2xl">Korakodmice@gmail.com</h1>
+            <h1 className="text-[8.5px] md:text-2xl">Korakodmice@gmail</h1>
             <p>
               <a
                 href="mailto:someone@example.com"
@@ -38,7 +38,7 @@ const MainFooter = forwardRef((ref, contactRef) => {
           </div>
         </div>
         <div className=" p-2 border-[#e71d36] border-2 h-[100px] md:h-[111px]">
-          <h1 className="text-base md:text-2xl mb-2 text-wrap">My CV Resume</h1>
+          <h1 className="text-sm md:text-2xl mb-2 text-wrap">My CV Resume</h1>
 
           <button className=" bg-gray-400 md:p-2 text-sm md:text-2xl p-1">
             Resume

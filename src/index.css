@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .warp-to{
-  @apply border-4 border-[#e71d36] rounded-sm p-2 px-4 text-white bg-[#011627]  hover:cursor-pointer ;
+  @apply border-4 border-[#e71d36] rounded-sm  p-2 px-4 text-white bg-[#e71d36] transition duration-300 hover:bg-[#011627] hover:cursor-pointer ;
 }
 *{
   margin: 0;
