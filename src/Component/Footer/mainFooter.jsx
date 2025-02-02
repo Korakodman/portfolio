@@ -1,8 +1,12 @@
 import React from "react";
+import { forwardRef } from "react";
 
-export default function MainFooter() {
+const MainFooter = forwardRef((ref, contactRef) => {
   return (
-    <footer className="bg-[#011627]  mx-1 h-[125px] p-2 mt-1  justify-center items-center">
+    <footer
+      ref={contactRef}
+      className="bg-[#011627]  mx-1 h-[125px] p-2 mt-1  justify-center items-center"
+    >
       <section className="footer grid grid-cols-3 gap-4 text-center">
         <div className="border-2 border-[#e71d36] p-2 h-[100px] md:h-[111px] ">
           <div className="mb-2">
@@ -34,4 +38,5 @@ export default function MainFooter() {
       </section>
     </footer>
   );
-}
+});
+export default MainFooter;

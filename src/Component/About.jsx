@@ -1,7 +1,7 @@
 import React from "react";
 import { forwardRef } from "react";
 
-const About = forwardRef((ref, aboutRef, skillRef) => {
+const About = forwardRef((ref, aboutRef) => {
   return (
     <div className="about-me" ref={aboutRef}>
       <section className=" bg-[#011627]  border-black border-2 grid grid-cols-1 md:grid-cols-2 gap-4 md:h-[680px] p-4 md:p-0">
@@ -32,7 +32,7 @@ const About = forwardRef((ref, aboutRef, skillRef) => {
           />
         </div>
       </section>
-      <hr ref={skillRef} className="border border-gray-600 w-full"></hr>
+      <hr className="border border-gray-600 w-full"></hr>
     </div>
   );
 });

@@ -1,10 +1,10 @@
 import React from "react";
 import { forwardRef } from "react";
-const Skill = () => {
+const Skill = forwardRef((ref, skillRef) => {
   return (
     <div>
-      <section className="skill    p-2  bg-[#011627] h-[500px] ">
-        <div className="skill-text p-2 grid justify-center items-center mb-5 mt-12">
+      <section className="skill    p-2  bg-[#011627] h-[550px] " ref={skillRef}>
+        <div className="skill-text p-2 grid justify-center items-center mb-5 mt-20">
           <div>
             <h2 className="text-4xl p-2 text-center shadow-md  shadow-[#e71d36] mb-5 bg-black border-2 border-[#e71d36] border-r-4 border-l-4 ">
               Skill
@@ -53,6 +53,6 @@ const Skill = () => {
       <hr className="border border-gray-600 w-full"></hr>
     </div>
   );
-};
+});
 
 export default Skill;

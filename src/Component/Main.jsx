@@ -24,8 +24,8 @@ function Main() {
       />
 
       <Home ref={homeRef} />
-      <About aboutRef={aboutRef} skillRef={skillRef} />
-      <Skill />
+      <About ref={aboutRef} />
+      <Skill ref={skillRef} />
       <Project ref={projectRef} />
       <MainFooter ref={contactRef} />
     </main>

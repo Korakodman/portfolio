@@ -1,7 +1,7 @@
 import React from "react";
-
-function Project() {
-  const projects = [
+import { forwardRef } from "react";
+const Project = forwardRef((ref, projectRef) => {
+  let projects = [
     {
       title: "Shopping Web Cart",
       image: "Screenshot_5.jpg",
@@ -20,7 +20,10 @@ function Project() {
   ];
 
   return (
-    <section className="project  p-4  bg-[#011627]  mt-2  flex justify-center items-center">
+    <section
+      className="project  p-4  bg-[#011627]  mt-2  flex justify-center items-center"
+      ref={projectRef}
+    >
       <div className="container-project  grid  grid-cols-1  md:grid-cols-3  gap-6  md:gap-10  mt-5  mb-5  w-full  max-w-6xl">
         {projects.map((project, index) => (
           <div
@@ -49,5 +52,5 @@ function Project() {
       </div>
     </section>
   );
-}
+});
 export default Project;
