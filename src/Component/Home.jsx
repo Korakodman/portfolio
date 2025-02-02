@@ -1,6 +1,6 @@
 import React from "react";
 import { forwardRef } from "react";
-const About = forwardRef((props, homeRef) => {
+const Home = forwardRef((props, homeRef) => {
   return (
     <div className="about" ref={homeRef}>
       <section className="about-me bg-[#011627]  border-black border-2 grid grid-cols-1 md:grid-cols-2 gap-4 md:h-[680px] p-4 md:p-0">
@@ -33,5 +33,5 @@ const About = forwardRef((props, homeRef) => {
     </div>
   );
 });
-
-export default About;
+Home.displayName = "About";
+export default Home;

@@ -54,5 +54,5 @@ const Skill = forwardRef((ref, skillRef) => {
     </div>
   );
 });
-
+Skill.displayName = "Skill";
 export default Skill;

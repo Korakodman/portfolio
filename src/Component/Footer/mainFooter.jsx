@@ -39,4 +39,5 @@ const MainFooter = forwardRef((ref, contactRef) => {
     </footer>
   );
 });
+MainFooter.displayName = "MainFooter";
 export default MainFooter;
