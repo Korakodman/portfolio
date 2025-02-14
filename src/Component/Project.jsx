@@ -1,6 +1,9 @@
 import React from "react";
 import { forwardRef } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Project = forwardRef((ref, projectRef) => {
+  Aos.init;
   let projects = [
     {
       title: "Shopping Web Cart",
@@ -9,7 +12,7 @@ const Project = forwardRef((ref, projectRef) => {
     },
     {
       title: "To-Do-list",
-      image: "Screenshot_5.jpg",
+      image: "todolist.png",
       link: "https://todotranning.netlify.app/",
     },
     {
@@ -24,7 +27,11 @@ const Project = forwardRef((ref, projectRef) => {
       className="project  p-4  bg-[#011627]  mt-2  flex justify-center items-center"
       ref={projectRef}
     >
-      <div className="container-project  grid  grid-cols-1  md:grid-cols-3  gap-6  md:gap-10  mt-5  mb-5  w-full  max-w-6xl">
+      <div
+        data-aos="zoom-in"
+        data-aos-delay="150"
+        className="container-project  grid  grid-cols-1  md:grid-cols-3  gap-6  md:gap-10  mt-5  mb-5  w-full  max-w-6xl"
+      >
         {projects.map((project, index) => (
           <div
             key={index}
