@@ -10,7 +10,7 @@ const Project = forwardRef((ref, projectRef) => {
     {
       title: "To-Do-list",
       image: "Screenshot_5.jpg",
-      link: "#",
+      link: "https://todotranning.netlify.app/",
     },
     {
       title: "Clone Web",
