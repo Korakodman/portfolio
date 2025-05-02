@@ -8,7 +8,7 @@ const Skill = forwardRef((ref, skillRef) => {
     <div>
       <section className="skill    p-2  bg-[#011627] h-[550px] " ref={skillRef}>
         <div className="skill-text p-2 grid justify-center items-center mb-5 mt-20">
-          <div data-aos="fade-down">
+          <div data-aos="fade-down" data-aos-delay="150">
             <h2 className="text-4xl p-2 text-center shadow-md  shadow-[#e71d36] mb-5 bg-black border-2 border-[#e71d36] border-r-4 border-l-4 ">
               Skill
             </h2>
@@ -16,6 +16,7 @@ const Skill = forwardRef((ref, skillRef) => {
 
           <div
             data-aos="fade-up"
+            data-aos-delay="150"
             className="skill-name-list-logo flex justify-between p-3 bg-black rounded-lg border-4 border-[#2ec4b6]"
           >
             <img
@@ -43,6 +44,7 @@ const Skill = forwardRef((ref, skillRef) => {
 
         <div
           data-aos="fade-down"
+          data-aos-delay="150"
           className="Head-Tool skill-text p-2 grid justify-center items-center mb-5"
         >
           <h1 className="text-4xl p-2 text-center  border-[#e71d36] shadow-[#e71d36] shadow-md mb-5 bg-black border-r-4 border-l-4 border-2">
@@ -50,6 +52,7 @@ const Skill = forwardRef((ref, skillRef) => {
           </h1>
           <div
             data-aos="fade-up"
+            data-aos-delay="150"
             className="Tool-name-list-logo flex justify-between p-3 bg-black rounded-lg border-4 border-[#2ec4b6] border-r-4 border-l-4"
           >
             <img src="vscode.png" alt="vscode" className="logo " />

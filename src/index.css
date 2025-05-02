@@ -2,8 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-.warp-to{
-  @apply border-4 border-[#e71d36] rounded-full  p-2 px-4 text-white bg-[#e71d36] transition duration-300 hover:bg-[#011627] hover:cursor-pointer ;
+.warp-to {
+  @apply relative border-[2px] border-red-500 rounded-md  px-4 text-white overflow-hidden;
+}
+
+.warp-to::before {
+  content: '';
+  @apply absolute top-0 left-0 w-full h-full bg-red-500 scale-x-0 origin-left transition-transform  -z-10;
+}
+
+.warp-to:hover::before {
+  @apply scale-x-100;
+  
+}
+
+.warp-to:hover {
+  @apply text-black 
 }
 *{
   margin: 0;
