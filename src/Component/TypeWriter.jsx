@@ -43,10 +43,10 @@ const TypeWriter = () => {
 
   return (
     <div className=" flex">
-      <h2 className="text-2xl md:text-5xl ">{showText}</h2>
+      <h2 className="text-2xl md:text-[56px] ">{showText}</h2>
       <h2
         className="relative after:absolute after:inset-0  after:animate-caret after:bg-white
-        text-white text-sm md:text-6xl p-1
+        text-white text-sm md:text-6xl p-1 h-12 
         w-max rounded-sm bg-[#011627] overflow-hidden whitespace-nowrap"
       ></h2>
     </div>

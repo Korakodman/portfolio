@@ -2,29 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-.warp-to {
-  @apply relative border-[2px] border-red-500 rounded-md  px-4 text-white overflow-hidden;
-}
 
-.warp-to::before {
-  content: '';
-  @apply absolute top-0 left-0 w-full h-full bg-red-500 scale-x-0 origin-left transition-transform  -z-10;
-}
 
-.warp-to:hover::before {
-  @apply scale-x-100;
-  
-}
 
-.warp-to:hover {
-  @apply text-black 
-}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: monospace;
 }
 .logo{
  @apply w-10 h-10 mx-4  text-white rounded-md flex items-center justify-center;
+}
+*{
+  @apply font-sans
 }

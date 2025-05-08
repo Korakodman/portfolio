@@ -43,9 +43,15 @@ const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
           {navItems.map((item, index) => (
             <li
               key={item.name}
-              className={`mr-8 warp-to ${
-                index === navItems.length - 1 ? "mr-0" : ""
-              }`}
+              className={`mr-8 
+                group relative inline-block overflow-hidden z-10
+  px-6 py-1 border-2 border-red-500 rounded-md text-white hover:text-black
+  before:content-[''] before:absolute before:top-0 before:left-0 
+  before:w-full before:h-full before:bg-red-500 before:scale-x-0 
+  before:origin-left before:transition-transform before:duration-300 
+  before:ease-in-out before:-z-10 hover:before:scale-x-100 ${
+    index === navItems.length - 1 ? "mr-0" : ""
+  }`}
             >
               <button
                 onClick={() => scrollToSection(item.ref)}
@@ -74,7 +80,12 @@ const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
                 scrollToSection(item.ref);
                 toggleMenu(); // ปิดเมนูหลังจากกด
               }}
-              className="text-2xl text-white warp-to"
+              className="text-2xl  group relative inline-block overflow-hidden z-10
+  px-6 py-1 border-2 border-red-500 rounded-md text-white hover:text-black
+  before:content-[''] before:absolute before:top-0 before:left-0 
+  before:w-full before:h-full before:bg-red-500 before:scale-x-0 
+  before:origin-left before:transition-transform before:duration-300 
+  before:ease-in-out before:-z-10 hover:before:scale-x-100"
             >
               {item.name}
             </button>
