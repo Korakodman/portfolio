@@ -34,7 +34,7 @@ const About = forwardRef((ref, aboutRef) => {
           className="image flex justify-center items-center p-4"
         >
           <img
-            src="korakod.jpg"
+            src="travel.jpg"
             alt="image"
             className="rounded-full w-[250px] h-[250px] md:w-[400px] md:h-[400px]  object-cover"
           />

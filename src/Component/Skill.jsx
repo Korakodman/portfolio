@@ -8,9 +8,13 @@ const Skill = forwardRef((ref, skillRef) => {
     <div>
       <section className="skill    p-2  bg-[#011627] h-[550px] " ref={skillRef}>
         <div className="skill-text p-2 grid justify-center items-center mb-5 mt-20">
-          <div data-aos="fade-down" data-aos-delay="150">
-            <h2 className="text-4xl p-2 text-center shadow-md  shadow-[#e71d36] mb-5 bg-black border-2 border-[#e71d36] border-r-4 border-l-4 ">
-              Skill
+          <div
+            data-aos="fade-down"
+            data-aos-delay="150"
+            className=" ml-[168px]"
+          >
+            <h2 className="text-4xl p-2 text-center shadow-md w-[max-content] content-center shadow-[#e71d36] mb-5 bg-black border-2 border-[#e71d36] border-r-4 border-l-4 ">
+              Tech Stack
             </h2>
           </div>
 
@@ -39,6 +43,22 @@ const Skill = forwardRef((ref, skillRef) => {
               alt="react"
               className="logo"
             />
+            <img
+              src="tailwindcss.svg "
+              alt="tailwindcss"
+              className="logo"
+            ></img>
+            <img
+              src="https://cdn.brandfetch.io/id2alue-rx/w/800/h/800/theme/dark/idqNI71Hra.png?c=1dxbfHSJFAPEGdCLU4o5B
+            "
+              alt="nextjs"
+              className="logo"
+            ></img>
+            <img
+              src="https://cdn.brandfetch.io/ideyyfT0Lp/theme/light/idxmboBE0D.svg?c=1dxbfHSJFAPEGdCLU4o5B"
+              alt="nextjs"
+              className="logo"
+            ></img>
           </div>
         </div>
 
