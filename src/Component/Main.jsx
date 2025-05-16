@@ -5,7 +5,7 @@ import Project from "./Project";
 import About from "./About";
 import MainFooter from "./Footer/mainFooter";
 import Header from "./Header";
-
+import Demofooter from "./Footer/MainFooters";
 function Main() {
   const homeRef = useRef(null);
   const aboutRef = useRef(null);
@@ -27,7 +27,7 @@ function Main() {
       <About ref={aboutRef} />
       <Skill ref={skillRef} />
       <Project ref={projectRef} />
-      <MainFooter ref={contactRef} />
+      <Demofooter ref={contactRef} />
     </main>
   );
 }

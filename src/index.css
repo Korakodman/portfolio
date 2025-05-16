@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 .logo{
- @apply w-10 h-10 mx-4  text-white rounded-md flex items-center justify-center;
+ @apply w-10 h-10 mx-4 mt-2 md:mt-0 text-white rounded-md flex items-center justify-center;
 }
 *{
   @apply font-sans

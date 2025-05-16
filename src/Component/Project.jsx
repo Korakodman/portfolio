@@ -8,7 +8,7 @@ const Project = forwardRef((ref, projectRef) => {
 
   return (
     <section
-      className="project  p-4  bg-[#011627]  mt-2  flex justify-around items-center flex-wrap"
+      className="project  p-4  bg-[#011627]    flex justify-around items-center flex-wrap"
       ref={projectRef}
     >
       <Card

@@ -11,7 +11,7 @@ const Skill = forwardRef((ref, skillRef) => {
           <div
             data-aos="fade-down"
             data-aos-delay="150"
-            className=" ml-[168px]"
+            className=" md:ml-[168px] ml-[134px]"
           >
             <h2 className="text-4xl p-2 text-center shadow-md w-[max-content] content-center shadow-[#e71d36] mb-5 bg-black border-2 border-[#e71d36] border-r-4 border-l-4 ">
               Tech Stack
@@ -21,7 +21,7 @@ const Skill = forwardRef((ref, skillRef) => {
           <div
             data-aos="fade-up"
             data-aos-delay="150"
-            className="skill-name-list-logo flex justify-between p-3 bg-black rounded-lg border-4 border-[#2ec4b6]"
+            className="skill-name-list-logo flex justify-evenly flex-wrap p-3 bg-black rounded-lg border-4 border-[#2ec4b6]"
           >
             <img
               src="https://cdn-icons-png.flaticon.com/512/143/143655.png"

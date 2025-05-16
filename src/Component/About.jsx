@@ -22,10 +22,10 @@ const About = forwardRef((ref, aboutRef) => {
               className="text-xl md:text-1xl p-2  text-white  w-full  md:w-3/4
        "
             >
-              I have working on part-time 7-11 in thailand and I want to create
-              a website for learning programming skill and have fun with new
-              technology. in future i want to be full-stack development and
-              create pos for my restaurant
+              I working on part-time 7-11 in thailand and I want to create a
+              website for learning programming skill and have fun with new
+              technology. in future i want to be full-stack development and look
+              back why i come this so far
             </p>
           </div>
         </div>
