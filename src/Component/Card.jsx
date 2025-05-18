@@ -6,9 +6,9 @@ export default function Card({ link, image, title, github, techUse }) {
     <div
       data-aos="zoom-in"
       data-aos-delay="150"
-      className="container-project flex  w-max p-2 "
+      className="container-project flex  w-max p-2 mt-10 mb-10 "
     >
-      <div className="box-show-project   flex h-auto w-[350px] flex-col  text-center justify-center items-center ">
+      <div className="box-show-project   flex h-auto w-[250px] md:w-[350px] flex-col  text-center justify-center items-center ">
         <div className=" w-[250px] md:w-auto shadow-lg  border-2  border-[#2ec4b6] mb-4  md:p-2 p-1 ">
           <h1 className="text-head-project text-base  hover:cursor-default md:text-xl font-bold  text-white   bg-black  ">
             {techUse}
@@ -19,7 +19,7 @@ export default function Card({ link, image, title, github, techUse }) {
             href={link}
             target="_blank"
             rel="noreferrer"
-            className="group relative block w-[250px] h-[150px]  rounded-lg overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition-shadow duration-300"
+            className="group relative block md:w-[350px] md:h-[200px] w-[250px] h-[150px] rounded-lg overflow-hidden border border-gray-300 shadow-md hover:shadow-lg transition-shadow duration-300"
           >
             <img
               src={image}
