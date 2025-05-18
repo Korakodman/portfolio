@@ -8,11 +8,13 @@ export default function Card({ link, image, title, github, techUse }) {
       data-aos-delay="150"
       className="container-project flex  w-max p-2 "
     >
-      <div className="box-show-project    h-auto w-[350px] flex-row  text-center justify-center items-center">
-        <h1 className="text-head-project text-xl md:text-xl font-bold  text-white  p-2  bg-black  mb-4  shadow-lg  border-2  border-[#2ec4b6]">
-          {techUse}
-        </h1>
-        <div className="mb-4 mx-4 w-max  p-2 text-center ml-10 ">
+      <div className="box-show-project   flex h-auto w-[350px] flex-col  text-center justify-center items-center ">
+        <div className=" w-[250px] md:w-auto shadow-lg  border-2  border-[#2ec4b6] mb-4  md:p-2 p-1 ">
+          <h1 className="text-head-project text-base  hover:cursor-default md:text-xl font-bold  text-white   bg-black  ">
+            {techUse}
+          </h1>
+        </div>
+        <div className="mb-4 mx-4 w-max  p-2 text-center  ">
           <a
             href={link}
             target="_blank"
@@ -30,9 +32,9 @@ export default function Card({ link, image, title, github, techUse }) {
           </a>
         </div>
 
-        <nav className="flex justify-center  hover:cursor-pointer ml-10">
-          <ul className="flex text-xl">
-            <li className="mr-8 warp-to">
+        <nav className=" justify-center  hover:cursor-pointer ">
+          <ul className=" text-xl">
+            <li className=" warp-to">
               <button className="relative overflow-hidden border-2 border-[#2ec4b6] text-white px-6 py-3 group">
                 <span className="absolute inset-0 bg-[#2ec4b6] translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300 ease-in-out z-0"></span>
                 <span className="relative z-10">

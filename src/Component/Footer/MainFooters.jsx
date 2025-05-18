@@ -1,5 +1,9 @@
 import React from "react";
-import { faGithub, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faFacebook,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { forwardRef } from "react";
@@ -48,13 +52,21 @@ const Demofooter = forwardRef((ref, contactRef) => {
             >
               <FontAwesomeIcon icon={faFacebook} className=" fa-2x" />
             </a>
+            <a
+              href="https://www.facebook.com/HFGSMM"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors"
+            >
+              <FontAwesomeIcon icon={faInstagram} className=" fa-2x" />
+            </a>
           </div>
         </div>
       </div>
 
       {/* Bottom Bar */}
       <div className="mt-10 border-t border-gray-700 pt-6 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} สร้างโดย Korakod. All rights reserved.
+        © {new Date().getFullYear()} Create By Korakod. All rights reserved.
       </div>
     </footer>
   );
