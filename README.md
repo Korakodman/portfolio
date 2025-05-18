@@ -16,5 +16,5 @@ This is my Personal Portfolio Website built with vite and tailwind CSS,Design to
 - **Frontend:** React, Tailwind CSS
 - **Deployment:** Netlify
 - **Icon**: [Fontawesome](https://fontawesome.com/)
-- **ScollEffect**: [Scoll Effect](https://github.com/michalsnik/aos )
-- **FormEmail**: [Form](https://www.emailjs.com/) 
+- **ScollEffect**: [Aos](https://github.com/michalsnik/aos )
+- **FormEmail**: [EmailJs](https://www.emailjs.com/) 
