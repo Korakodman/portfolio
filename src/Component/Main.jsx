@@ -3,7 +3,6 @@ import Home from "./Home";
 import Skill from "./Skill";
 import Project from "./Project";
 import About from "./About";
-import MainFooter from "./Footer/mainFooter";
 import Header from "./Header";
 import Demofooter from "./Footer/MainFooters";
 function Main() {
