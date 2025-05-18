@@ -46,7 +46,7 @@ const TypeWriter = () => {
       <h2 className="text-2xl md:text-[56px] ">{showText}</h2>
       <h2
         className="relative after:absolute after:inset-0  after:animate-caret after:bg-white
-        text-white text-sm md:text-6xl p-1 h-12 
+        text-white text-sm md:text-6xl md:p-0.5 md:h-12 h-8 p-0.5
         w-max rounded-sm bg-[#011627] overflow-hidden whitespace-nowrap"
       ></h2>
     </div>
