@@ -25,7 +25,7 @@ export default function ContactForm() {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="space-y-4">
+    <form ref={form} onSubmit={sendEmail} className="space-y-4  p-4 ">
       <input
         name="user_name"
         type="text"

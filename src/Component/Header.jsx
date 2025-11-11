@@ -23,7 +23,7 @@ const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
   };
 
   return (
-    <header className="App-Header p-4 border-2 shadow-md shadow-[#ff9f1c]  border-[#ff9f1c] bg-[#011627] flex justify-between items-center sticky top-0 z-50">
+    <header className="App-Header p-4 border-2 shadow-md  border-[#393E46] bg-[#222831] flex justify-between items-center sticky top-0 z-50">
       <div className="head-logo p-2">
         <h1 className="text-2xl text-white ml-4 md:ml-7 cursor-pointer">
           Korakod.
@@ -45,9 +45,9 @@ const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
               key={item.name}
               className={`mr-8 
                 group relative inline-block overflow-hidden z-10
-  px-6 py-1 border-2 border-red-500 rounded-md text-white hover:text-black
+  px-6 py-1 border-2 border-[#DFD0B8] rounded-md text-white hover:text-black
   before:content-[''] before:absolute before:top-0 before:left-0 
-  before:w-full before:h-full before:bg-red-500 before:scale-x-0 
+  before:w-full before:h-full before:bg-[#393E46] before:scale-x-0 
   before:origin-left before:transition-transform before:duration-300 
   before:ease-in-out before:-z-10 hover:before:scale-x-100 ${
     index === navItems.length - 1 ? "mr-0" : ""
@@ -66,7 +66,7 @@ const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
 
       {/* Mobile Navigation Overlay */}
       {isMenuOpen && (
-        <div className="fixed inset-0 bg-[#011627] z-50 md:hidden flex flex-col items-center justify-center space-y-6">
+        <div className="fixed inset-0 bg-[#222831] z-50 md:hidden flex flex-col items-center justify-center space-y-6">
           <button
             onClick={toggleMenu}
             className="absolute top-4 right-4 text-white"
@@ -81,9 +81,9 @@ const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
                 toggleMenu(); // ปิดเมนูหลังจากกด
               }}
               className="text-2xl  group relative inline-block overflow-hidden z-10
-  px-6 py-1 border-2 border-red-500 rounded-md text-white hover:text-black
+  px-6 py-1 border-2 border-[#393E46] rounded-md text-white hover:text-black
   before:content-[''] before:absolute before:top-0 before:left-0 
-  before:w-full before:h-full before:bg-red-500 before:scale-x-0 
+  before:w-full before:h-full before:bg-[#393E46] before:scale-x-0 
   before:origin-left before:transition-transform before:duration-300 
   before:ease-in-out before:-z-10 hover:before:scale-x-100"
             >

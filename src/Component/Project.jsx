@@ -8,7 +8,7 @@ const Project = forwardRef((ref, projectRef) => {
 
   return (
     <section
-      className="project  p-4  bg-[#011627]    flex justify-around items-center flex-wrap"
+      className="project  p-4  bg-[#222831]  flex justify-around items-center flex-wrap"
       ref={projectRef}
     >
       <Card
@@ -20,10 +20,10 @@ const Project = forwardRef((ref, projectRef) => {
       />
       <Card
         title="To-Do-list"
-        image="todolist.png"
-        link="https://todotranning.netlify.app/"
-        github="https://github.com/Korakodman/mytodoweb"
-        techUse="Vite make to-do-list"
+        image="download.png"
+        link="https://full-list-crud.vercel.app/"
+        github="https://github.com/Korakodman/full-list-crud"
+        techUse="Nextjs crud + mongodb"
       />
       <Card
         title="Admin Dashboard "

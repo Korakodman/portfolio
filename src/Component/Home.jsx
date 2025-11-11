@@ -4,7 +4,7 @@ import TypeWriter from "./TypeWriter";
 const Home = forwardRef((props, homeRef) => {
   return (
     <div className="about" ref={homeRef}>
-      <section className="about-me bg-[#011627]  border-black border-2 grid grid-cols-1 md:grid-cols-2 gap-4 md:h-[680px] p-4 md:p-0">
+      <section className="about-me bg-[#222831]   grid grid-cols-1 md:grid-cols-2 gap-4 md:h-[680px] p-4 md:p-0">
         <div className="about-me-text flex flex-col justify-center items-center text-center  md:text-left md:ml-16 space-y-4  p-4">
           <div className=" relative">
             {/* <h5
@@ -15,15 +15,15 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-whit
             <TypeWriter />
           </div>
           <div className="text-center md:text-left">
-            <p className="text-xl md:text-3xl p-2  text-white w-full  md:w-3/4">
+            <p className="text-xl md:text-3xl p-2   w-full  md:w-3/4">
               My Name is Korakod.
             </p>
             <p
-              className="text-xl md:text-3xl p-2  text-white  w-full  md:w-3/4
+              className="text-xl md:text-3xl p-2   w-full  md:w-3/4
              "
             >
               I'm Junior Frontend Developer i'm 20 years old i have learning by
-              myself and I have interested in Frontend Developer.
+              myself and <br></br>I have interested in Frontend Developer.
             </p>
           </div>
         </div>

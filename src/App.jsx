@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App  bg-neutral-900 text-[#fdfffc]">
       <Main />
-      <hr className="border border-gray-600 w-full"></hr>
     </div>
   );
 }

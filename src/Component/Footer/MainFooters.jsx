@@ -53,7 +53,7 @@ const Demofooter = forwardRef((ref, contactRef) => {
               <FontAwesomeIcon icon={faFacebook} className=" fa-2x" />
             </a>
             <a
-              href="https://www.facebook.com/HFGSMM"
+              href="https://www.instagram.com/iceseccf/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"
