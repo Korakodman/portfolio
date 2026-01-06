@@ -14,16 +14,16 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-whit
             ></h5> */}
             <TypeWriter />
           </div>
-          <div className="text-center md:text-left">
-            <p className="text-xl md:text-3xl p-2   w-full  md:w-3/4">
-              My Name is Korakod.
+          <div className="text-center md:text-left ">
+            <p className="text-xl md:text-3xl p-2   md:w-3/4">
+             Hi, I’m Korakod 👋
+             Junior Frontend Developer
             </p>
             <p
-              className="text-xl md:text-3xl p-2   w-full  md:w-3/4
+              className="text-xl md:text-3xl p-2   w-[500px]  md:w-3/4
              "
             >
-              I'm Junior Frontend Developer i'm 20 years old i have learning by
-              myself and <br></br>I have interested in Frontend Developer.
+            I build responsive web applications using React, Next.js, and Tailwind CSS.
             </p>
           </div>
         </div>

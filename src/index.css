@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 .logo{
- @apply w-10 h-10 mx-4 mt-2 md:mt-0 text-white rounded-md flex items-center justify-center;
+ @apply  md:w-16 md:h-16 w-10 h-10 mx-4 mt-2 md:mt-0 text-white rounded-md flex items-center justify-center hover:md:size-20  flex-none transition-transform duration-150;
 }
 *{
   @apply font-sans

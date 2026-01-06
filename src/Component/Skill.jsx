@@ -29,7 +29,7 @@ const Skill = forwardRef((ref, skillRef) => {
             <img
               src="https://cdn-icons-png.flaticon.com/512/143/143655.png"
               alt="html"
-              className="logo"
+              className="logo "
             ></img>
             <img
               src="https://cdn-icons-png.flaticon.com/512/732/732190.png"
@@ -70,7 +70,7 @@ const Skill = forwardRef((ref, skillRef) => {
           data-aos-delay="150"
           className="Head-Tool skill-text p-2 grid justify-center items-center mb-5"
         >
-          <h1 className="text-4xl p-2 md:w-[250px] text-center hover:cursor-default border-[#393E46]  bg-[#393E46]    mb-5 border-r-4 border-l-4 border-2">
+          <h1 className="text-4xl p-2 md:w-auto text-center hover:cursor-default border-[#393E46]  bg-[#393E46]    mb-5 border-r-4 border-l-4 border-2">
             Tool
           </h1>
     

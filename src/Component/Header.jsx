@@ -47,7 +47,7 @@ const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
                 group relative inline-block overflow-hidden z-10
   px-6 py-1 border-2 border-[#DFD0B8] rounded-md text-white hover:text-black
   before:content-[''] before:absolute before:top-0 before:left-0 
-  before:w-full before:h-full before:bg-[#393E46] before:scale-x-0 
+  before:w-full before:h-full before:bg-[#DFD0B8] before:scale-x-0 
   before:origin-left before:transition-transform before:duration-300 
   before:ease-in-out before:-z-10 hover:before:scale-x-100 ${
     index === navItems.length - 1 ? "mr-0" : ""
@@ -55,7 +55,7 @@ const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
             >
               <button
                 onClick={() => scrollToSection(item.ref)}
-                className="text-white cursor-pointer"
+                className=" cursor-pointer"
               >
                 {item.name}
               </button>

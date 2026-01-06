@@ -7,7 +7,7 @@ const About = forwardRef((ref, aboutRef) => {
   return (
     <div className="about-me" ref={aboutRef}>
       <section className=" bg-[#222831]   grid grid-cols-1 md:grid-cols-2 gap-4 md:h-[680px] p-4 md:p-0">
-        <div className="about-me-text flex flex-col justify-center items-center md:items-start  md:text-left md:ml-16 space-y-4  p-4">
+        <div className="about-me-text flex flex-col justify-center items-center md:items-start  md:text-left md:ml-24 space-y-4  p-4">
           <div
             data-aos="zoom-in"
             className="text-3xl md:text-6xl p-4  overflow-hidden w-fit text-wrap rounded-sm  bg-[#393E46] border-[#393E46] border-r-4 border-l-4 border-2"
@@ -19,13 +19,14 @@ const About = forwardRef((ref, aboutRef) => {
               You can call me Ice
             </p>
             <p
-              className="text-xl md:text-1xl p-2   w-full  md:w-3/4
+              className="text-xl md:text-4xl p-2   w-full  md:w-4/5
        "
             >
-              I working on part-time 7-11 in thailand and I want to create a
-              website for learning programming skill and have fun with new
-              technology. in future i want to be full-stack development and look
-              back why i come this so far
+           I’m a self-taught developer currently working part-time while improving my skills.
+
+I enjoy building web applications and learning new technologies.
+My goal is to become a full-stack developer in the future.
+
             </p>
           </div>
         </div>
@@ -33,10 +34,11 @@ const About = forwardRef((ref, aboutRef) => {
           data-aos="zoom-in"
           className="image flex justify-center items-center p-4"
         >
+          <div className=" bg-[#393E46] md:w-[425px] md:h-[425px]  w-[300px] h-[300px] p-2  rounded-[97%_3%_39%_61%/51%_37%_63%_49%]"></div>
           <img
             src="travel.jpg"
             alt="image"
-            className="rounded-full w-[250px] h-[250px] md:w-[400px] md:h-[400px]  object-cover"
+            className=" w-[250px] h-[250px] md:w-[400px] md:h-[400px]  object-cover  rounded-[97%_3%_39%_61%/51%_37%_63%_49%] absolute "
           />
         </div>
       </section>
