@@ -2,12 +2,13 @@ import React from "react";
 import { forwardRef } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { SkillIcon } from "./IconSkill";
 const Skill = forwardRef((ref, skillRef) => {
   Aos.init();
   return (
     <div>
       <section
-        className="skill  flex-col   p-2  bg-[#222831] h-[550px] "
+        className="skill  flex-col   p-2  bg-[#222831] h-[700px] "
         ref={skillRef}
       >
         <div className="skill-text p-2  md:grid mb-5 mt-20 justify-center items-center ">
@@ -24,68 +25,86 @@ const Skill = forwardRef((ref, skillRef) => {
           <div
             data-aos="fade-up"
             data-aos-delay="150"
-            className="skill-name-list-logo flex justify-evenly flex-wrap p-3 bg-[#948979]rounded-lg border-4 border-[#948979]"
+            className="skill-name-list-logo flex justify-evenly flex-wrap p-3 bg-[#948979]rounded-lg "
           >
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/143/143655.png"
-              alt="html"
-              className="logo "
-            ></img>
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/732/732190.png"
-              alt="css"
-              className="logo"
+            <SkillIcon
+              src={"https://cdn-icons-png.flaticon.com/512/143/143655.png"}
+              alt={"Html"}
+              text={"HTML"}
             />
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
-              alt="javascript"
-              className="logo"
+            <SkillIcon
+              src={"https://cdn-icons-png.flaticon.com/512/732/732190.png"}
+              alt={"css"}
+              text={"CSS"}
             />
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png"
-              alt="react"
-              className="logo"
+            <SkillIcon
+              src={"https://cdn-icons-png.flaticon.com/512/5968/5968292.png"}
+              alt={"javascript"}
+              text={"JavaScript"}
             />
-            <img
-              src="tailwindcss.svg "
-              alt="tailwindcss"
-              className="logo"
-            ></img>
-            <img
-              src="https://cdn.brandfetch.io/id2alue-rx/w/800/h/800/theme/dark/idqNI71Hra.png?c=1dxbfHSJFAPEGdCLU4o5B
-            "
-              alt="nextjs"
-              className="logo"
-            ></img>
-            <img
-              src="https://cdn.brandfetch.io/ideyyfT0Lp/theme/light/idxmboBE0D.svg?c=1dxbfHSJFAPEGdCLU4o5B"
-              alt="nextjs"
-              className="logo"
-            ></img>
+            <SkillIcon
+              src={"https://cdn-icons-png.flaticon.com/512/1126/1126012.png"}
+              alt={"HTML"}
+              text={"React"}
+            />
+            <SkillIcon
+              src={"tailwindcss.svg "}
+              alt={"tailwind"}
+              text={"TailwindCSS"}
+            />
+            <SkillIcon
+              src={
+                "https://cdn.brandfetch.io/id2alue-rx/w/800/h/800/theme/dark/idqNI71Hra.png?c=1dxbfHSJFAPEGdCLU4o5B"
+              }
+              alt={"nextjs"}
+              text={"Nextjs"}
+            />
+            <SkillIcon
+              src={
+                "https://cdn.brandfetch.io/ideyyfT0Lp/theme/light/idxmboBE0D.svg?c=1dxbfHSJFAPEGdCLU4o5B"
+              }
+              alt={"Mongo"}
+              text={"MongoDB"}
+            />
           </div>
         </div>
 
         <div
           data-aos="fade-down"
           data-aos-delay="150"
-          className="Head-Tool skill-text p-2 grid justify-center items-center mb-5"
+          className="Head-Tool skill-text p-2 grid justify-center items-center mb-5 mt-10"
         >
           <h1 className="text-4xl p-2 md:w-auto text-center hover:cursor-default border-[#393E46]  bg-[#393E46]    mb-5 border-r-4 border-l-4 border-2">
             Tool
           </h1>
-    
+
           <div
             data-aos="fade-up"
             data-aos-delay="150"
-            className="Tool-name-list-logo flex justify-evenly p-3  rounded-lg border-4 border-[#948979] border-r-4 border-l-4"
+            className="Tool-name-list-logo flex justify-evenly p-3   "
           >
-            <img src="vscode.png" alt="vscode" className="logo " />
-            <img src="github-mark-white.png" alt="vscode" className="logo" />
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/12222/12222560.png"
-              alt="vscode"
-              className="logo"
+             <SkillIcon
+              src={
+                "vscode.png"
+              }
+              alt={"vscode"}
+              text={"VSCode"}
             />
+             <SkillIcon
+              src={
+                "github-mark-white.png"
+              }
+              alt={"github"}
+              text={"Github"}
+            /> <SkillIcon
+              src={
+                "https://cdn-icons-png.flaticon.com/512/12222/12222560.png"
+              }
+              alt={"chatgpt"}
+              text={"ChatGPT"}
+            />
+        
+            
           </div>
         </div>
       </section>
