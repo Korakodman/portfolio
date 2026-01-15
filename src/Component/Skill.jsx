@@ -25,7 +25,7 @@ const Skill = forwardRef((ref, skillRef) => {
           <div
             data-aos="fade-up"
             data-aos-delay="150"
-            className="skill-name-list-logo flex justify-evenly flex-wrap p-3 bg-[#948979]rounded-lg "
+            className="skill-name-list-logo flex  md:flex-wrap p-3 bg-[#948979]rounded-lg "
           >
             <SkillIcon
               src={"https://cdn-icons-png.flaticon.com/512/143/143655.png"}

@@ -12,11 +12,11 @@ const Project = forwardRef((ref, projectRef) => {
       ref={projectRef}
     >
       <Card
-        title="Shopping Web Cart"
-        image="Screenshot_5.jpg"
-        link="https://elaborate-begonia-f659e3.netlify.app/"
+        title="App Chat Basic"
+        image="app-chat-image.png"
+        link="https://app-chat-basic.vercel.app/enter-name"
         github="https://github.com/Korakodman/ShoppingWeb"
-        techUse=" Vite + Api"
+        techUse="Socket + Nextjs "
       />
       <Card
         title="To-Do-list"
