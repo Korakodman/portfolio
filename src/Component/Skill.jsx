@@ -17,7 +17,7 @@ const Skill = forwardRef((ref, skillRef) => {
             data-aos-delay="150"
             className="  grid justify-center items-center "
           >
-            <h2 className="text-4xl p-2 text-center hover:cursor-default md:w-[250px] border-[#393E46]  shadow-md mb-5 bg-[#393E46] border-r-4 border-l-4 border-2">
+            <h2 className="text-4xl p-2 text-center hover:cursor-default md:w-[250px] border-[#393E46] ease-out transform duration-300 hover:drop-shadow-[0_0_12px_rgba(255,255,255,0.35)]   mb-5 bg-[#393E46] border-r-4 border-l-4 border-2">
               Tech Stack
             </h2>
           </div>
@@ -74,7 +74,7 @@ const Skill = forwardRef((ref, skillRef) => {
           data-aos-delay="150"
           className="Head-Tool skill-text p-2 grid justify-center items-center mb-5 mt-10"
         >
-          <h1 className="text-4xl p-2 md:w-auto text-center hover:cursor-default border-[#393E46]  bg-[#393E46]    mb-5 border-r-4 border-l-4 border-2">
+          <h1 className="text-4xl p-2 md:w-auto text-center hover:cursor-default border-[#393E46]   transform duration-300  hover:drop-shadow-[0_0_12px_rgba(255,255,255,0.35)] bg-[#393E46]     mb-5 border-r-4 border-l-4 border-2">
             Tool
           </h1>
 
