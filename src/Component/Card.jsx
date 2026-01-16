@@ -36,7 +36,7 @@ export default function Card({ link, image, title, github, techUse }) {
           <ul className=" text-xl">
             <li className=" warp-to">
               <button className="relative overflow-hidden border-2 border-[#948979]    px-6 py-3 group">
-                <span className="absolute inset-0 bg-[#393E46] translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300 ease-in-out z-0"></span>
+                <span className="absolute inset-0 bg-[#3b4049] translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300 ease-in-out z-0"></span>
                 <span className="relative z-10">
                   <a href={github} target="_blank" rel="noreferrer">
                     {title}
