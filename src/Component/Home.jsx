@@ -31,7 +31,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-whit
           <img
             src="https://imgcdn.stablediffusionweb.com/2024/12/31/3bcc3d08-6edb-4182-8fa0-8a3fde401455.jpg"
             alt="image"
-            className=" w-[250px] h-[250px] md:w-[400px] md:h-[400px]  object-cover"
+            className=" w-[250px] h-[250px] md:w-[400px] md:h-[400px]  object-cover rounded-full "
           />
         </div>
       </section>
