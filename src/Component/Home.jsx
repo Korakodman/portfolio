@@ -15,15 +15,15 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-whit
             <TypeWriter />
           </div>
           <div className="text-center md:text-left ">
-            <p className="text-xl md:text-3xl p-2   md:w-3/4">
+            <p className="text-xl md:text-3xl p-2   md:w-4/4">
              Hi, I’m Korakod 👋
-             Junior Frontend Developer
+             Junior Full-Stack Developer
             </p>
             <p
               className="text-xl md:text-3xl p-2   w-[500px]  md:w-3/4
              "
             >
-            I build responsive web applications using React, Next.js, and Tailwind CSS.
+            I build Full-stack web applications using Next.js,Tailwind CSS For Style and MongoDB for Database.
             </p>
           </div>
         </div>

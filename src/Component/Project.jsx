@@ -8,7 +8,7 @@ const Project = forwardRef((ref, projectRef) => {
 
   return (
     <section
-      className="project  p-4  bg-[#222831]  flex justify-around items-center flex-wrap"
+      className="project  p-4  bg-[#222831] grid-cols-3 grid items-center justify-center"
       ref={projectRef}
     >
       <Card
@@ -31,6 +31,19 @@ const Project = forwardRef((ref, projectRef) => {
         link="https://admin-dashboard-apy7.vercel.app/"
         github="https://github.com/Korakodman/admin-dashboard"
         techUse="Nextjs + Tailwindcss + mongodb"
+      />
+       <Card
+        title="POS Management"
+        image="POS.png"
+        link="https://pos-project-phi.vercel.app/"
+        github="https://github.com/Korakodman/admin-dashboard"
+        techUse="Nextjs + Tailwindcss + mongodb"
+      />
+       <Card
+        title="Game Jam Horror"
+        image="https://img.itch.zone/aW1hZ2UvNDAwMjU1OC8yMzg3MDAyMS5wbmc=/347x500/gK5rjt.png"
+        link="https://onicxia.itch.io/lilys-path"
+        techUse="Unity"
       />
     </section>
   );

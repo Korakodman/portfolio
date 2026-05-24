@@ -26,8 +26,9 @@ const Skill = forwardRef((ref, skillRef) => {
             data-aos="fade-up"
             data-aos-delay="150"
             className="skill-name-list-logo flex  md:flex-wrap p-3 bg-[#948979]rounded-lg "
-          >
-            <SkillIcon
+>
+            <div className="flex">
+              <SkillIcon
               src={"https://cdn-icons-png.flaticon.com/512/143/143655.png"}
               alt={"Html"}
               text={"HTML"}
@@ -66,7 +67,16 @@ const Skill = forwardRef((ref, skillRef) => {
               alt={"Mongo"}
               text={"MongoDB"}
             />
+             <SkillIcon
+              src={
+                "https://nodejs.org/static/logos/nodejsHex.svg"
+              }
+              alt={"nodejs"}
+              text={"NodeJS"}
+            />
           </div>
+            </div>
+
         </div>
 
         <div

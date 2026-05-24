@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const TypeWriter = () => {
-  const text = "I'm a Frontend Developer.";
+  const text = "I'm a Full-Stack Developer.";
   const [showText, setShowText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [index, setIndex] = useState(0);

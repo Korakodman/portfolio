@@ -19,13 +19,13 @@ const About = forwardRef((ref, aboutRef) => {
               You can call me Ice
             </p>
             <p
-              className="text-xl md:text-4xl p-2   w-full  md:w-4/5
+              className="text-xl md:text-4xl p-2   w-full  md:w-full
        "
             >
-           I’m a self-taught developer currently working part-time while improving my skills.
-
-I enjoy building web applications and learning new technologies.
-My goal is to become a full-stack developer in the future.
+           I’m a self-taught developer currently working part-time while continuously improving my skills.
+I enjoy building full-stack web applications and learning modern technologies.
+I have experience with frontend and backend development using technologies like React, Next.js, and MongoDB.
+My goal is to grow into a professional full-stack developer.
 
             </p>
           </div>
